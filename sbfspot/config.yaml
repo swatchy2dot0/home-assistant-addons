@@ -1,15 +1,13 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: SBFspot add-on
 version: "0.1.0"
-slug: example
+slug: sbfspot
 description: SBFspot add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+url: "https://github.com/swatchy2dot0/home-assistant-addons/tree/main/sbfspot"
 arch:
   - armv7
-  - amd64
 init: false
-options:
-  message: "Hello world..."
+full_access: true
 schema:
   message: "str?"
-image: "swatchy2dot0/home-assistant-sbfspot"
+image: "swatchy2dot0/{arch}-home-assistant-sbfspot"
