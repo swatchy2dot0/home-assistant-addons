@@ -6,11 +6,10 @@ description: SBFspot add-on
 url: "https://github.com/home-assistant/addons-example/tree/main/example"
 arch:
   - armv7
-  - arm64
   - amd64
 init: false
 options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "swatchy2dot0/home-assistant-{arch}-sbfspot"
+image: "swatchy2dot0/home-assistant-sbfspot"

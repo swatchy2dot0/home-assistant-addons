@@ -1,6 +1,5 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
-  arm64: "solarexplorer/sbfspot-sqlite:latest"
   amd64: "solarexplorer/sbfspot-sqlite:latest"
   armv7: "solarexplorer/sbfspot-sqlite:latest"
 labels:
