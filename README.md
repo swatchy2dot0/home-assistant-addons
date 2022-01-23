@@ -1,6 +1,6 @@
-# Example Home Assistant add-on repository
+# satchy2dot0's Home Assistant add-on repository
 
-This repository can be used as a "blueprint" for add-on development to help you get started.
+This repository tries to provide Home Assistant add-on which are not avaialble via other repositories (yet).
 
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
