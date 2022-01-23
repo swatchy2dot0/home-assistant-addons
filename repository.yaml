@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: swatchy2dot0's Home Assistant add-on repository
+name: swatchy2dot0's Home Assistant Add-ons
 url: 'https://github.com/swatchy2dot0/home-assistant-addons'
 maintainer: swatchy2dot0 <https://github.com/swatchy2dot0>
