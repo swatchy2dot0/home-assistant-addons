@@ -3,6 +3,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
+RUN export DOCKER_DEFAULT_PLATFORM=linux/aarch64  
+
 # Copy data for add-on
 COPY run.sh /
 

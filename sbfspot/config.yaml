@@ -1,11 +1,11 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: SBFspot
-version: "0.1.1"
+version: "0.1.2"
 slug: sbfspot
-description: This add-on just takes the solarexplorer/sbfspot-sqlit docker image and makes it a Home Assistant Add-on.
+description: This add-on just takes the solarexplorer/sbfspot-sqlit docker image and makes it a Home Assistant Add-on
 url: "https://github.com/swatchy2dot0/home-assistant-addons/tree/main/sbfspot"
 arch:
-  - armv7
+  - aarch64
 init: false
 full_access: true
 schema:

@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
-  armv7: "solarexplorer/sbfspot-sqlite:v3.8.3"
+  aarch64: "solarexplorer/sbfspot-sqlite:v3.8.3@sha256:9d8baccfcaff4e10dda077c510bc80071b579b70ff4657847e5ac1b4567e3f8f"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: SBFspot add-on"
   org.opencontainers.image.description: "Download data from an SMA® inverter over Bluetooth and publish them via MQTT."
